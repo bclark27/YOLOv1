@@ -38,7 +38,7 @@ measure_variance = 0.3
 measure_covariance = 0.01
 obj_detector = ObjectDetector(new_obj_time, obj_life, match_tolerance, proc_variance, proc_covariance, measure_variance, measure_covariance)
 
-# set file ins and outs
+# set file ins and outs 
 input_file = 'video_files/nyc_long.mp4'
 output_file = 'video_files/nyc_long_with_filterTEST.mp4'
 # turn on or off kalman filter methods
